@@ -11,7 +11,6 @@ from discord.ext import commands
 from discord.ext.commands import Context 
 from helpers import checks
 
-
 if not os.path.isfile("config.json"):
     sys.exit("'config.json' not found! Please add it and try again.")
 else:
